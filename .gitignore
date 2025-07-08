@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+# This is the most important one to ignore!
+# Do not commit your virtual environment folder.
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter/Colab Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE and Editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TensorFlow/Keras Checkpoints and Logs
+# Keep this folder but ignore its contents if you don't want to push every single checkpoint.
+# If you want to share your BEST model, add it manually with `git add -f model_checkpoints/best_model.keras`
+model_checkpoints/*
+!model_checkpoints/.gitkeep
+
+# Pickle files (often used for temporary data or tokenizers)
+# You SHOULD commit your final tokenizer.pickle, so we will ignore all and then un-ignore the one you need.
+*.pickle
+!tokenizer.pickle
+
+# Saved plots and images
+*.png
+*.jpg
+*.jpeg
+
+# Datasets
+# NEVER commit large dataset files (.csv, .tsv, etc.) to Git.
+# Add your specific dataset filenames here.
+*.csv
+*.tsv
+*.zip
+*.gz
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Build and distribution artifacts
+/dist/
+/build/
+*.egg-info/
+*.egg
+
+# Python logs
+logs/
+*.log
