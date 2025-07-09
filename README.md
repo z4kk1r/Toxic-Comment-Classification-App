@@ -1,5 +1,13 @@
 # AI-Powered Toxic Comment Classifier
 
+> A project for the Artificial Intelligence course at the **Faculty of Electrical Engineering, University of Sarajevo**.
+> 
+> **Department:** Computer Science and Informatics
+> 
+> **Academic Year:** 2024/2025
+
+<br>
+
 A deep learning system designed to automatically classify text comments as **"Toxic"** or **"Non-Toxic."** This project features a hybrid CNN + Bi-LSTM model built from scratch in Keras/TensorFlow and includes a desktop GUI application for real-time analysis.
 
 <br>
@@ -26,6 +34,7 @@ A deep learning system designed to automatically classify text comments as **"To
 - [Desktop Demo Application](#-desktop-demo-application)
 - [Limitations & Future Work](#-limitations--future-work)
 - [How to Run](#-how-to-run)
+- [Team](#-team)
 
 ## 🎯 Project Goal
 
@@ -152,3 +161,11 @@ A desktop application was developed using **Python's Tkinter** and the **`ttkthe
     ```bash
     python toxic_classifier_app.py
     ```
+
+## 🧑‍💻 Team
+
+This project was developed by:
+
+*   **Zakir Šehić**
+*   **Emir Duvnjak**
+*   **Mahir Rešidović**
